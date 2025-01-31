@@ -1,0 +1,88 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://mdave0905.github.io/Online_Tutoring_Platform",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@headlessui/react": "^2.2.0",
+    "@mui/material": "^6.4.0",
+    "@smastrom/react-rating": "^1.5.0",
+    "@stomp/stompjs": "^7.0.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
+    "date-fns": "^4.1.0",
+    "eslint-config-react-app": "^7.0.1",
+    "express": "^4.21.2",
+    "frontend": "file:",
+    "jwt-decode": "^4.0.0",
+    "nodemon": "^3.1.9",
+    "process": "^0.11.10",
+    "react": "^18.3.1",
+    "react-calendar": "^5.1.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.3",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.15.0",
+    "react-tooltip": "^5.28.0",
+    "react-validation": "^3.0.7",
+    "simple-peer": "^9.11.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "sockjs-client": "^1.6.1",
+    "tailwind-scrollbar-hide": "^2.0.0",
+    "validator": "^13.12.0",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.97.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "nodemon ./src/server.js",
+    "lint": "eslint ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@eslint/js": "^9.14.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.12.0",
+    "jest": "^27.5.1",
+    "prettier": "3.3.3",
+    "react-app-rewired": "^2.2.1",
+    "react-router-dom": "^7.1.3",
+    "tailwindcss": "^3.4.14"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "lines": 80
+      }
+    }
+  }
+}

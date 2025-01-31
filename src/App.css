@@ -1,0 +1,8 @@
+:root {
+  --blue: #61dafb;
+  --white: #fff;
+}
+
+* {
+  transition: all 0.2s ease-in-out;
+}

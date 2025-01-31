@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/lato.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url("../fonts/merriweather.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: MerriweatherSans;
+  src: url("../fonts/merriweather_sans.ttf") format("truetype");
+}
